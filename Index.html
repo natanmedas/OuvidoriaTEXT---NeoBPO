@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ouvidoria text</title>
+    <script src="resultado.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="inde.css">
+</head>
+<body>
+<div id="cabecalho"><span id="logo"> OuvidoriaTEXT </span></div>
+    <div id="menuc1">
+
+        <input class="inpt" placeholder="Linha" id="linhacontrato1">
+        <input class="inpt" placeholder="Valor 2" id="c1_valor2"> <br>
+        <input class="inpt" placeholder="Email" id="c1_email"><br>
+
+       <span id="checkbox1"> Devolver valor via TED (Cliente não possui E-mail)<input class="ckecks" id="pcacisemail" type="checkbox"><br></span>
+        <span id="checkbox2">  Devolver valor via TED (Cliente possui E-mail)<input class="ckecks" id="pcacicemail" type="checkbox"><br></span>
+        <span id="checkbox3"> Devolver valor via Boleto (Cliente não possui E-mail)<input class="ckecks" id="boletosemail" type="checkbox"><br></span>
+        <span id="checkbox4"> Devolver valor via Boleto (Cliente possui E-mail)<input class="ckecks" id="boletocemail" type="checkbox"><br></span>
+        <span id="checkbox5"> Cliente solicita reembolso (Contrato ativo)<input class="ckecks"  id="reembolsocativo" type="checkbox"><br></span>
+        <button id="geraminuta" onclick="textoBase()">Gerar Minuta</button>
+
+    </div>
+    <div id="resultado">resultado</div>
+</body>
+</html>

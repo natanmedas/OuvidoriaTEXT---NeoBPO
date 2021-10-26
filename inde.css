@@ -1,0 +1,76 @@
+body{
+background-color: white;
+
+}
+#cabecalho{
+    background-color: #563d7c;
+    height: 70px;
+    color:white;
+    padding:15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#menuc1{
+
+    width:400px;
+    height: 230px;
+    margin: 10px;
+    background-color:white ;
+    font-size: 13px;
+}
+.inpt{
+    border-style: solid;
+    border-color: #563d7c;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-top:2px;
+    outline:0;
+    margin-left: 20px;
+    margin-top:5px;
+}
+.inpt:hover{
+    border-color: #777777;
+    outline:0;
+}
+#pcacisemail{
+    margin-left: 20px;
+
+}
+#checkbox1 {
+    background-color: #cbd0d6;
+    width: 400px;
+    height: 20px;
+    position: absolute;
+}
+#checkbox2 {
+    background-color:#d1b3ff ;
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    margin-top:20px;
+}
+#checkbox3 {
+    background-color:#cbd0d6 ;
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    margin-top:40px;
+}
+#checkbox4 {
+    background-color:#d1b3ff ;
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    margin-top:60px;
+}
+#checkbox5 {
+    background-color:#cbd0d6 ;
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    margin-top:80px;
+}
+#geraminuta{
+    margin-top:120px;
+    margin-left: 20px;
+}
